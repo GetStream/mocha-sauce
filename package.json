@@ -1,9 +1,15 @@
 {
-	"name": "mocha-sauce",
+	"name": "@stream-io/mocha-sauce",
 	"version": "0.0.5",
+	"main": "index.js",
 	"description": "Really fancy Mocha tests in the cloud with Saucelabs",
 	"keywords": ["mocha", "test", "tdd", "bdd", "saucelabs", "selenium", "cloud", "testing"],
 	"author": "Paul Bakaus <pbakaus@zynga.com>",
+	"homepage": "http://github.com/GetStream/mocha-sauce",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/GetStream/mocha-sauce"
+	},
 	"dependencies": {
 		"mocha": "*",
 		"max-component": "*",
@@ -13,6 +19,5 @@
 		"request": "*",
 		"debug": "*",
 		"batch": "*"
-	},
-	"main": "index"
+	}
 }
